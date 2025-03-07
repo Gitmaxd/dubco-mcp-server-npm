@@ -1,0 +1,38 @@
+{
+  "name": "dubco-mcp-server",
+  "version": "1.0.3",
+  "description": "Model Context Protocol (MCP) server for creating and managing Dub.co short links",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mcp", "dub.co", "url-shortener", "model-context-protocol"],
+  "author": "gitmaxd",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "axios": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitmaxd/dubco-mcp-server-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gitmaxd/dubco-mcp-server-npm/issues"
+  },
+  "homepage": "https://github.com/gitmaxd/dubco-mcp-server-npm#readme",
+  "bin": {
+    "dubco-mcp-server": "build/index.js"
+  }
+}
