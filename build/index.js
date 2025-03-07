@@ -14,7 +14,7 @@ class DubcoServer {
     constructor() {
         this.server = new Server({
             name: 'dubco-server',
-            version: '1.0.0',
+            version: '1.0.4',
         }, {
             capabilities: {
                 tools: {},
