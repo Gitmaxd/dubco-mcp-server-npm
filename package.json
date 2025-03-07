@@ -1,6 +1,6 @@
 {
   "name": "dubco-mcp-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Model Context Protocol (MCP) server for creating and managing Dub.co short links",
   "main": "build/index.js",
   "type": "module",
