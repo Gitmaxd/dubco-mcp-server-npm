@@ -75,7 +75,7 @@ class DubcoServer {
     this.server = new Server(
       {
         name: 'dubco-server',
-        version: '1.0.4',
+        version: '1.0.5',
       },
       {
         capabilities: {
