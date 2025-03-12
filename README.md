@@ -6,6 +6,10 @@
 
 A Model Context Protocol (MCP) server for creating and managing [Dub.co](https://dub.co) short links (unofficial). This server enables AI assistants to create, update, and delete short links through the Dub.co API.
 
+<a href="https://glama.ai/mcp/servers/0tvsbwmk8m">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/0tvsbwmk8m/badge" alt="Unofficial dubco-mcp-server MCP server" />
+</a>
+
 ## 🚀 Features
 
 - Create custom short links with your Dub.co domains
