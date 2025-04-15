@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/dubco-mcp-server.svg)](https://www.npmjs.com/package/dubco-mcp-server)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 [![Node.js Version](https://img.shields.io/node/v/dubco-mcp-server)](https://nodejs.org/)
+[![smithery badge](https://smithery.ai/badge/@Gitmaxd/dubco-mcp-server-npm)](https://smithery.ai/server/@Gitmaxd/dubco-mcp-server-npm)
 
 A Model Context Protocol (MCP) server for creating and managing [Dub.co](https://dub.co) short links (unofficial). This server enables AI assistants to create, update, and delete short links through the Dub.co API.
 
@@ -24,6 +25,14 @@ A Model Context Protocol (MCP) server for creating and managing [Dub.co](https:/
 - An API key from the [Dub.co dashboard](https://app.dub.co/settings/api)
 
 ## 💻 Installation
+
+### Installing via Smithery
+
+To install Dub.co MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Gitmaxd/dubco-mcp-server-npm):
+
+```bash
+npx -y @smithery/cli install @Gitmaxd/dubco-mcp-server-npm --client claude
+```
 
 ### Global Installation
 
