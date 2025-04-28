@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/mseep-audited.png)](https://mseep.ai/app/gitmaxd-dubco-mcp-server-npm)
+
 # Unofficial dubco-mcp-server
 
 [![npm version](https://img.shields.io/npm/v/dubco-mcp-server.svg)](https://www.npmjs.com/package/dubco-mcp-server)
